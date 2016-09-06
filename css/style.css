@@ -1,0 +1,12 @@
+/*!
+ * My custom style CSS
+ * 
+ * 
+ */
+
+/* Makes Devicons bigger */
+[class^="devicon-"], [class*=" devicon-"] {
+/*	line-height: 10; */
+    font-size: 70px;  
+    padding: 10px;
+}
