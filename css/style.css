@@ -20,7 +20,9 @@
 .bg-primary {
 	background-color: #986DBD;
 }
-
+.center {
+	margin: 0 auto;
+}
 .text-primary {
 	color: #986DBD;
 }
@@ -31,4 +33,10 @@
 
 .progress-bar {
 	background-color: #986DBD;
+}
+
+.progress {
+	height: 30px;
+	border-radius: 0;
+	box-shadow: none;	
 }
