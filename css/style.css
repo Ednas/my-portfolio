@@ -10,3 +10,25 @@
     font-size: 70px;  
     padding: 10px;
 }
+
+/* Color 986DBD*/
+
+/*h1, h2, h3, h4, h5, h6 {
+	color: #986DBD;
+}*/
+
+.bg-primary {
+	background-color: #986DBD;
+}
+
+.text-primary {
+	color: #986DBD;
+}
+
+.fa-fw {
+	color: #986DBD;
+}
+
+.progress-bar {
+	background-color: #986DBD;
+}
