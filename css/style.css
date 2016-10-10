@@ -212,11 +212,11 @@ hr.small {
     margin: 5 auto;
     width: 90%;
     border: 0 none;
-    opacity: .8;
+/*    opacity: .8;*/
 }
 
 .img-portfolio:hover {
-    opacity: 0.8;
+/*    opacity: 0.8;*/
 }
 
 /* Call to Action */
