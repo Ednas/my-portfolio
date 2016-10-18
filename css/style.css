@@ -14,6 +14,12 @@ body {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/*Background */
+
+.bg-primary {
+  background-color: #2DB6C8;
+}
+
 .text-vertical-center {
   display: table-cell;
   text-align: center;
@@ -28,22 +34,11 @@ body {
 }
 
 
-/*Background */
-
-.bg-primary {
-  background-color: #986DBD;
-}
-
-.center {
-  margin: 0 auto;
-}
-
-
 /* Custom Button Styles */
 
 .btn-dark {
   border-radius: 0;
-  color: #986DBD;
+  color: #2DB6C8;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -182,13 +177,19 @@ hr.small {
   padding: 50px 0;
 }
 
-/* Services */
+.img-about {
+  margin: 0 auto;
+  width: 400px;
+  height: auto;
+}
 
-.services {
+/* Skillset */
+
+.skillset {
   padding: 50px 0;
 }
 
-.service-item {
+.skillset-item {
   margin-bottom: 30px;
 }
 
@@ -219,26 +220,41 @@ hr.small {
 
 .img-portfolio {
   margin: 5 auto;
-  width: 90%;
+  width: 400px;
+  height: auto;
   border: 0 none;
   /*    opacity: .8;*/
 }
 
 .img-portfolio:hover {
-  /*    opacity: 0.8;*/
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
+/*.img-portfolio figure:hover img {
+  opacity: .5;
+}*/
 
 
-/* Call to Action */
+/* Experienced in */
 
-.call-to-action {
+.experienced {
   padding: 50px 0;
 }
 
-.call-to-action .btn {
+.experienced .btn {
   margin: 10px;
 }
 
+/*In Depth Skills*/
+
+.in-depth {
+  padding: 50px 0;
+}
+
+.in-depth .btn {
+  margin: 10px;
+}
 
 /* Makes Devicons bigger */
 
@@ -252,7 +268,7 @@ hr.small {
 
 /*Progress bar*/
 .progress-bar {
-  background-color: #986DBD;
+  background-color: #2DB6C8;
 }
 .progress {
   height: 30px;
@@ -262,10 +278,10 @@ hr.small {
 
 /*Favicons, text primary makes the text purple, fa-fw targets the icon background*/
 .text-primary {
-  color: #986DBD;
+  color: #2DB6C8;
 }
 .fa-fw {
-  color: #986DBD;
+  color: #2DB6C8;
 }
 
 /* Footer */
