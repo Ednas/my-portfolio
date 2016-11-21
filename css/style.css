@@ -1,7 +1,7 @@
 /*!
  * My custom style CSS
- * 
- * 
+ * Made with CSS <3 by Edna Jonsson
+ * (c) 2016
  */
 
 html,
@@ -35,9 +35,12 @@ body {
 
 
 /* Custom Button Styles */
+button {
+  border-radius: 5px;
+}
 
 .btn-dark {
-  border-radius: 0;
+/*  border-radius: 3px;*/
   color: #2DB6C8;
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -45,12 +48,14 @@ body {
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   background-color: rgba(0, 0, 0, 0.7);
 }
+/*    color: #333;
+    background-color: */
 
 .btn-light {
-  border-radius: 0;
+/*  border-radius: 3px;*/
   color: #333;
   background-color: rgb(255, 255, 255);
 }
@@ -269,10 +274,11 @@ hr.small {
 /*Progress bar*/
 .progress-bar {
   background-color: #2DB6C8;
+  line-height: 25px;  
 }
 .progress {
   height: 30px;
-  border-radius: 0;
+  border-radius: 3px;
   box-shadow: none;
 }
 
