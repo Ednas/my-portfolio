@@ -14,6 +14,7 @@ body {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+
 /*Background */
 
 .bg-primary {
@@ -35,6 +36,7 @@ body {
 
 
 /* Custom Button Styles */
+
 button {
   border-radius: 5px;
 }
@@ -52,7 +54,6 @@ button {
   background-color: rgba(18, 71, 78, 0.7);
   font-size: 1.5em;
 }
-
 
 .btn-light {
   color: #333;
@@ -187,6 +188,7 @@ hr.small {
   height: auto;
 }
 
+
 /* Skillset */
 
 .skillset {
@@ -212,6 +214,7 @@ hr.small {
   -o-background-size: cover;
 }
 
+
 /* Portfolio */
 
 .portfolio {
@@ -223,11 +226,17 @@ hr.small {
 }
 
 .img-portfolio {
-  margin: 5 auto;
   width: 400px;
-  height: auto;
   border: 0 none;
-  /*    opacity: .8;*/
+  overflow: hidden;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, .75);
+  text-align: center;
+/*  padding: 45px 0 66px 0;*/
+  opacity: 0.5;
+  -webkit-transition: opacity .25s ease;
 }
 
 .img-portfolio:hover {
@@ -235,9 +244,13 @@ hr.small {
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
-/*.img-portfolio figure:hover img {
-  opacity: .5;
-}*/
+
+.title {
+  font-family: Helvetica;
+  color: rgba(255, 255, 255, .85);
+}
+
+
 
 
 /* Experienced in */
@@ -250,6 +263,7 @@ hr.small {
   margin: 10px;
 }
 
+
 /*In Depth Skills*/
 
 .in-depth {
@@ -260,6 +274,7 @@ hr.small {
   margin: 10px;
 }
 
+
 /* Makes Devicons bigger */
 
 [class^="devicon-"],
@@ -269,32 +284,68 @@ hr.small {
   padding: 10px;
 }
 
+/* Devicon li's */
+.pretty {
+  padding: 10px;
+}
+.devstack li {
+  text-decoration: none;
+  display: inline;
+}
 
+.devstack .hoverText {
+  position: absolute;
+  visibility: hidden;
+  overflow: hidden;
+  width: 90px;
+  margin-top: 4px;
+  border-radius: 6px;
+}
+
+td {
+  padding: 6px !important;
+}
+.pretty:hover .hoverText {
+  visibility: visible;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
 /*Progress bar*/
+
 .progress-bar {
   background-color: #2DB6C8;
-  line-height: 25px;  
+  line-height: 25px;
 }
+
 .progress {
   height: 30px;
   border-radius: 3px;
   box-shadow: none;
 }
 
+
 /*Favicons, text primary makes the text purple, fa-fw targets the icon background*/
+
 .text-primary {
   color: #2DB6C8;
 }
+
 .fa-fw {
   color: #2DB6C8;
 }
 
+
 /* Footer */
+
 footer {
   padding: 100px 0;
 }
 
-/* =================== */
-/*    Media Queries    */
+
 /* =================== */
 
+
+/*    Media Queries    */
+
+
+/* =================== */
