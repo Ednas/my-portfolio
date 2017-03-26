@@ -222,6 +222,7 @@ hr.small {
 }
 
 .portfolio-item {
+  position: relative;
   margin-bottom: 30px;
 }
 
@@ -230,20 +231,30 @@ hr.small {
   border: 0 none;
   overflow: hidden;
 }
-
 .overlay {
-  background: rgba(0, 0, 0, .75);
+  position: absolute;
+  visibility: hidden;
   text-align: center;
-/*  padding: 45px 0 66px 0;*/
-  opacity: 0.5;
-  -webkit-transition: opacity .25s ease;
+  margin-top: 130px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, .85);
+  width: 400px;
+}
+.img-portfolio .overlay {
+
+
+}
+/*.devstack .hoverText {
+  overflow: hidden;
+  width: 90px;
+}*/
+
+.portfolio-item:hover .overlay {
+  visibility: visible;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-.img-portfolio:hover {
-  opacity: 1;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
 
 .title {
   font-family: Helvetica;
@@ -285,6 +296,9 @@ hr.small {
 }
 
 /* Devicon li's */
+td {
+  padding: 6px !important;
+}
 .pretty {
   padding: 10px;
 }
@@ -302,14 +316,12 @@ hr.small {
   border-radius: 6px;
 }
 
-td {
-  padding: 6px !important;
-}
 .pretty:hover .hoverText {
   visibility: visible;
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
 }
+
 /*Progress bar*/
 
 .progress-bar {
@@ -343,9 +355,5 @@ footer {
 
 
 /* =================== */
-
-
 /*    Media Queries    */
-
-
 /* =================== */
