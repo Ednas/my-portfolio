@@ -240,14 +240,6 @@ hr.small {
   background: rgba(0, 0, 0, .85);
   width: 400px;
 }
-.img-portfolio .overlay {
-
-
-}
-/*.devstack .hoverText {
-  overflow: hidden;
-  width: 90px;
-}*/
 
 .portfolio-item:hover .overlay {
   visibility: visible;
@@ -260,9 +252,6 @@ hr.small {
   font-family: Helvetica;
   color: rgba(255, 255, 255, .85);
 }
-
-
-
 
 /* Experienced in */
 
