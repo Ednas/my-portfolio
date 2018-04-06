@@ -18,7 +18,7 @@ body {
 /*Background */
 
 .bg-primary {
-  background-color: #2DB6C8;
+  background-color: rgb(217,25,103);
 }
 
 .text-vertical-center {
@@ -42,7 +42,7 @@ button {
 }
 
 .btn-dark {
-  color: #2DB6C8;
+  color: rgb(240,165,31);
   background-color: rgba(0, 0, 0, 0.4);
   font-size: 1.5em;
 }
@@ -162,20 +162,24 @@ hr.small {
 
 
 /* Header */
-
 .header {
   display: table;
-  position: relative;
   width: 100%;
   height: 100%;
-  background: url(../img/bg.jpg) no-repeat center center scroll;
+  text-align: center;
+  vertical-align: middle;
+  background: rgb(217,25,103);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
-
-
+.header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
 /* About */
 
 .about {
@@ -314,7 +318,7 @@ td {
 /*Progress bar*/
 
 .progress-bar {
-  background-color: #2DB6C8;
+  background-color: #6433e0;
   line-height: 25px;
 }
 
@@ -328,11 +332,11 @@ td {
 /*Favicons, text primary makes the text purple, fa-fw targets the icon background*/
 
 .text-primary {
-  color: #2DB6C8;
+  color: #6433e0;
 }
 
 .fa-fw {
-  color: #2DB6C8;
+  color: #6433e0;
 }
 
 
