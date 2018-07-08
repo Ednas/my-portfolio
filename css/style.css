@@ -1,7 +1,7 @@
 /*!
  * My custom style CSS
  * Made with CSS <3 by Edna Jonsson
- * (c) 2016
+ * (c) 2016 - 2018
  */
 
 html,
@@ -13,7 +13,6 @@ body {
 body {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 
 
 /*Background */
@@ -34,7 +33,6 @@ body {
     font-size: 4.5em;
     font-weight: 700;
 }
-
 
 
 /* Custom Button Styles */
@@ -70,13 +68,11 @@ button {
 }
 
 
-
 /* Custom Horizontal Rule */
 
 hr.small {
     max-width: 100px;
 }
-
 
 
 /* Side Menu */
@@ -165,7 +161,6 @@ hr.small {
 }
 
 
-
 /* Header */
 
 .header {
@@ -204,7 +199,6 @@ hr.small {
 }
 
 
-
 /* Skillset */
 
 .skillset {
@@ -214,7 +208,6 @@ hr.small {
 .skillset-item {
     margin-bottom: 30px;
 }
-
 
 
 /* Callout */
@@ -230,7 +223,6 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
-
 
 
 /* Portfolio */
@@ -266,7 +258,6 @@ hr.small {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-
 .title {
     font-family: Helvetica;
     color: rgba(255, 255, 255, .85);
@@ -284,7 +275,6 @@ hr.small {
 }
 
 
-
 /*In Depth Skills*/
 
 .in-depth {
@@ -294,7 +284,6 @@ hr.small {
 .in-depth .btn {
     margin: 10px;
 }
-
 
 
 /* Makes Devicons bigger */
@@ -352,7 +341,6 @@ td {
 }
 
 
-
 /*Favicons, text primary makes the text purple, fa-fw targets the icon background*/
 
 .text-primary {
@@ -364,13 +352,11 @@ td {
 }
 
 
-
 /* Footer */
 
 footer {
     padding: 100px 0;
 }
-
 
 
 /* =================== */
