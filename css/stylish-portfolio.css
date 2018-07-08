@@ -377,3 +377,44 @@ a:active {
 .text-secondary {
     color: #ecb807 !important;
 }
+
+
+/* Makes Devicons bigger */
+
+[class^="devicon-"],
+[class*=" devicon-"] {
+    /*    line-height: 10; */
+    font-size: 70px;
+    padding: 10px;
+}
+
+
+/* Devicon li's */
+
+td {
+    padding: 6px !important;
+}
+
+.pretty {
+    padding: 10px;
+}
+
+.devstack li {
+    text-decoration: none;
+    display: inline;
+}
+
+.devstack .hoverText {
+    position: absolute;
+    visibility: hidden;
+    overflow: hidden;
+    width: 90px;
+    margin-top: 4px;
+    border-radius: 6px;
+}
+
+.pretty:hover .hoverText {
+    visibility: visible;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
