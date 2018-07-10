@@ -418,3 +418,15 @@ td {
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+.know .progress-bar {
+    background-color: #ecb807 !important;
+    line-height: 25px;
+    color: black;
+}
+
+.progress {
+    height: 30px;
+    border-radius: 3px;
+    box-shadow: none;
+}
