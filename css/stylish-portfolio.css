@@ -399,21 +399,21 @@ td {
     padding: 10px;
 }
 
-.devstack li {
-    text-decoration: none;
-    display: inline;
-}
-
 .devstack .hoverText {
     position: absolute;
     visibility: hidden;
     overflow: hidden;
     width: 90px;
-    margin-top: 4px;
+    margin-top: 1.25rem;
     border-radius: 6px;
 }
 
+.pretty:hover {
+    opacity: 0.75;
+}
+
 .pretty:hover .hoverText {
+    opacity: 1;
     visibility: visible;
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
@@ -429,4 +429,10 @@ td {
     height: 30px;
     border-radius: 3px;
     box-shadow: none;
+}
+
+.img-about {
+    margin: 0 auto;
+    width: 25em;
+    height: auto;
 }
