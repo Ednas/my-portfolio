@@ -29,7 +29,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Mx. ET</a>
+            <a class="navbar-brand" href="./newindex.html">Mx. ET</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@
                         <a class="nav-link" href="./tools.html">My fav tools</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">For tutoring students  <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">For tutoring students <span class="sr-only">(current)</span></a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link" href="https://blog.edna.tech">Blog</a>
@@ -71,7 +71,8 @@
             <h1>For Coding Bootcamp Students</h1>
             <p>I often refer to these links in my tutoring sessions. After having tutored students for a couple of
                 years, I decided to curate them all within one page.</p>
-            <section>
+            <section class="bg-secondary">
+                <h2>Full Stack Web Development</h2>
                 <h3> CSS</h3>
                 <ul>
                     <li><a href="https://flukeout.github.io/">CSS Plates</a> A game that teaches you about CSS
@@ -107,15 +108,36 @@
 
                     <li><a href="https://w3c.github.io/ServiceWorker/#cache">Service Worker</a></li>
                 </ul>
-                <h3>Cyber Security</h3>
+                <div class="Space"></div>
+
+                <h2>Cyber Security</h2>
+                <p>There are fundamentals to learn, then there are specific skills for red team and blue team</p>
+                <h3>Fundamentals</h3>
                 <ul>
                     <li><a href="https://www.professormesser.com/">Professor Messor</a> For your CompTIA certification
-                        prep,
-                        A+, Network+ and Security+</li>
+                        prep, A+, Network+ and Security+</li>
+                    <li><a href="http://passcomptia.com/">Pass CompTIA</a> Again for your CompTIA certs, but this is the
+                        website for taking practice tests. It has both questions and performance based questions (PBQ's).
+                    </li>
                 </ul>
             </section>
         </main>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer text-center" id="contact">
+        <div class="container">
+            <p class="text-muted small mb-0">Copyright &copy; edna.tech 2016 -
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
